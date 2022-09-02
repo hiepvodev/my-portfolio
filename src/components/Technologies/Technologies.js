@@ -9,21 +9,9 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      From Back-end To Frontend
     </SectionText>
     <List>
-      <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experiece with <br />
-            React.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
       <ListItem>
         <picture>
           <DiFirebase size="3rem" />
@@ -32,7 +20,19 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Laravel, Nodejs and Databases(Mysql, Mongodb)
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiReact size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            Experiece with <br />
+            Vuejs
           </ListParagraph>
         </ListContainer>
       </ListItem>
